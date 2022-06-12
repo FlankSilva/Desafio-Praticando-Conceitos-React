@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container p {
+  color: var(--blue-200);
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  margin-right: 8px;
+}
+
+.container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 19px;
+  padding: 2px 8px;
+  background: var(--gray-400);
+  border-radius: 999px;
+  color: var(--gray-200);
+  font-size: 12px;
+}

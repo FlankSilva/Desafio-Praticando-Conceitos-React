@@ -1,0 +1,8 @@
+.container-checked-text {
+  display: flex;
+}
+
+.cheked-text {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
