@@ -21,8 +21,8 @@ export const Label: React.FC<PropsLabel> = ({ title = '', done }) => {
     <div className={styled['container']}>
       <p>{title}</p>
       <div>
-        {tasks.length}
-        {done && ` de ${countIsCompleteInTasks()}`}
+        {`${countIsCompleteInTasks()}`}
+        {done && ` de ${tasks.length}`}
       </div>
     </div>
   )
